@@ -4,12 +4,12 @@ The affine cipher is a type of monoalphabetic substitution cipher, wherein each 
 
 In the affine cipher the letters of an alphabet of size m are first mapped to the integers in the range 0 … m − 1. It then uses modular arithmetic to transform the integer that each plaintext letter corresponds to into another integer that correspond to a ciphertext letter. The encryption function for a single letter is : 
 
-E(x) = (ax + b) mod m.
-
+Encryption : E(x) = (ax + b) mod m.
+-----------------------------------
 where modulus m is the size of the alphabet and a and b are the key of the cipher. The value a must be chosen such that a and m are coprime. The decryption function is : 
 
-D(x) = a^-1(x - b) mod m
-------------------------
+Decryption : D(x) = a^-1(x - b) mod m.
+-------------------------------------
 where a^-1 = a inverse.
 1 = a * a^-1 mod m.
 
